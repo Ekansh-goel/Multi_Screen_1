@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter name"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter address"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtdesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter designation"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtsalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter salary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next" />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".firstactivity1">
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter name" />
+
+    <EditText
+        android:id="@+id/edtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter address" />
+
+    <EditText
+        android:id="@+id/designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter designation" />
+
+    <EditText
+        android:id="@+id/edtsalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter salary"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next" />
+
+</LinearLayout>
